@@ -723,3 +723,11 @@ Finally, we save the cleaned dataset and save it for futher Visualization in Tab
 data.to_csv('cleaned_user_behaviour_data.csv', index=False)
 ```
 ## Step 5: To view the Tableau visualization, you can [Click Here](https://public.tableau.com/app/profile/justin1565/viz/user_behavior_dashboard/Dashboard1)
+
+### Data Source
+The dataset used in this analysis is sourced from Kaggle:
+
+- Khorasani, V. (2023). *Mobile Device Usage and User Behavior Dataset*. Retrieved from [Kaggle](https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset).
+
+### Acknowledgments
+- Code snippets and solutions were adapted from discussions on [Stack Overflow](https://stackoverflow.com/)
