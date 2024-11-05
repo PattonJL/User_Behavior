@@ -12,6 +12,7 @@ This project aims to analyze user behavior data to uncover insights related to s
    - [3.3 Find the Correlation Between Screen On Time and Battery Drain](#33-find-the-correlation-between-screen-on-time-and-battery-drain)
 4. [Save Cleaned Data for Tableau Visualization](#save-cleaned-data-for-tableau-visualization)
 5. To view the Tableau visualization, you can [Click Here](https://public.tableau.com/app/profile/justin1565/viz/user_behavior_dashboard/Dashboard1)
+6. [User Behavior Analysis Trends](#user-behavior-analysis-trends) | Overview of trends observed in user behavior analysis.
 
 ## Step 1: Import Libraries and Load the Dataset
 In this step, we import the necessary libraries and load the user behavior dataset.
@@ -723,6 +724,36 @@ Finally, we save the cleaned dataset and save it for futher Visualization in Tab
 data.to_csv('cleaned_user_behaviour_data.csv', index=False)
 ```
 ## Step 5: To view the Tableau visualization, you can [Click Here](https://public.tableau.com/app/profile/justin1565/viz/user_behavior_dashboard/Dashboard1)
+
+# User Behavior Analysis Trends
+
+## 1. Screen Time Analysis
+### 1.1 Screen Time by Age
+- Younger age groups (e.g., 18-24) tend to have higher average screen-on time compared to older age groups.
+- There is a noticeable decline in screen time as age increases, indicating less usage among older demographics.
+
+### 1.2 Screen Time by Gender
+- Males generally exhibit higher average screen-on time than females.
+- The difference in screen time usage suggests varying engagement levels with digital devices between genders.
+
+## 2. Operating System Usage
+### 2.1 App Usage Time by Operating System
+- iOS users show significantly higher app usage time compared to Android users.
+- The operating system impacts user engagement, with iOS potentially offering more engaging apps.
+
+### 2.2 Screen On Time by Operating System
+- Similar to app usage, iOS users also report higher average screen-on time compared to Android users.
+- This trend suggests that the choice of operating system may influence overall screen time and app engagement.
+
+## 3. Correlation Insights
+### 3.1 Correlation between Screen On Time and Battery Drain
+- A positive correlation (r ≈ 0.XX) exists between screen-on time and battery drain, indicating that higher usage leads to increased battery consumption.
+- This relationship highlights the impact of prolonged device use on battery performance.
+
+## 4. Conclusion
+- The analysis reveals significant trends in user behavior based on age, gender, and operating system.
+- These insights can inform strategies for app development and marketing, targeting specific demographics to enhance user engagement.
+
 
 ### Data Source
 The dataset used in this analysis is sourced from Kaggle:
